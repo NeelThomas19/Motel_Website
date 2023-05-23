@@ -10,7 +10,7 @@ import{
   Route,
   Link
 } from "react-router-dom";
-
+import './Components/Style.css';
 function App() {
   return (
     <div className="App">
