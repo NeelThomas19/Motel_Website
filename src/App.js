@@ -4,6 +4,12 @@ import Header from './Components/Header.jsx';
 import Navbar from './Components/Navbar.jsx';
 import Body from './Components/Body.jsx';
 import Footer from './Components/Footer.jsx';
+import{
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
