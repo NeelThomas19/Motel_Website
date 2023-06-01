@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+                    /* HEADER */
+
 .header{
     font-family: 'Dancing Script', cursive;
     font-size: 7rem;
@@ -8,4 +10,64 @@
 
 .firstname{
     color: greenyellow;
+}
+
+
+                    /* NAVBAR */
+
+.navbar{
+    justify-content: center;
+}
+
+
+                    /* OVERVIEW */
+
+.overview{
+    border: 2px red solid;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.d-block{
+    height: 20px;
+}
+
+.w-100{
+    width: 20rem;
+}
+
+
+                    /* ROOMS */
+
+.rooms{
+    border: 2px blue solid;
+}
+
+
+                    /* LOCATION */
+
+.location{
+    border: 2px green solid;
+}
+
+
+                    /* AMENITIES */
+
+.amenities{
+    border: 2px yellow solid;
+}
+
+
+                    /* POLICIES */
+
+.policies{
+    border: 2px purple solid;
+}
+
+
+                    /* FOOTER */
+
+.footer{
+    border: 2px orange solid;
 }

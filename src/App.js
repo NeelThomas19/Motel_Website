@@ -2,8 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header.jsx';
 import Navbar from './Components/Navbar.jsx';
-import Body from './Components/Body.jsx';
+import Overview from './Components/Overview.jsx';
+import Rooms from './Components/Rooms.jsx';
+import Location from './Components/Location.jsx';
+import Amenities from './Components/Amenities.jsx';
+import Policies from './Components/Policies.jsx';
 import Footer from './Components/Footer.jsx';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import{
   BrowserRouter as Router,
   Switch,
@@ -16,7 +22,11 @@ function App() {
     <div className="App">
       <Header />
       <Navbar />
-      <Body />
+      <Overview />
+      <Rooms />
+      <Location />
+      <Amenities/>
+      <Policies />
       <Footer />
     </div>
   );
