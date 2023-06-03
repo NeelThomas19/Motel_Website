@@ -7,7 +7,11 @@ html,body{
     padding: 0px;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    background-color: #0000ff;
+    font-size: larger;
+    font: bold;
 }
+
 
                     /* HEADER */
 
@@ -15,6 +19,7 @@ html,body{
     font-family: 'Dancing Script', cursive;
     font-size: 7rem;
     text-align: center;
+    background: linear-gradient(to bottom, #0000ff, #ffffff);
 }
 
 .firstname{
@@ -26,26 +31,46 @@ html,body{
 
 .navbar{
     justify-content: center;
+    font-size: x-large;
+    font: bold;
+    background-color: white;
+}
+
+.nav-item{
+    color: #ff0000;
 }
 
 
                     /* OVERVIEW */
 
 .overview{
-    border: 2px red solid;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
     margin-left: 360px;
-    text-align: left;
+    text-align: justify;
     width: 60%;
     display: flex;
     justify-content: space-between;
+    background-color: #0000ff;
 }
 
 .text{
     padding-left: 20px;
+    justify-content: space-between;
 }
 
+.expl{
+    padding-left: 20px;
+}
+
+.text1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.t1{
+    padding-right: 70px;
+}
 
 
                     /* CAROUSEL */
@@ -55,6 +80,8 @@ html,body{
     width: 300px;
     border: none;
     outline: none;
+    border-radius: 0px;
+    background:linear-gradient(to bottom, #ffffff, #0000ff);
 }
 .slick-slide img{
     height: 500px;
@@ -66,33 +93,32 @@ html,body{
                     /* ROOMS */
 
 .rooms{
-    border: 2px blue solid;
+    background:linear-gradient(to bottom, #0000ff , #ffffff);
+    padding-bottom: 1px;
 }
 
 
                     /* LOCATION */
 
 .location{
-    border: 2px green solid;
+    padding-top: 0px;
+    background-color: #ffffff;
 }
 
 
                     /* AMENITIES */
 
 .amenities{
-    border: 2px yellow solid;
 }
 
 
                     /* POLICIES */
 
 .policies{
-    border: 2px purple solid;
 }
 
 
                     /* FOOTER */
 
 .footer{
-    border: 2px orange solid;
 }

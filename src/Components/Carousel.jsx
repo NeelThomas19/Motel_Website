@@ -4,18 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "font-awesome/css/font-awesome.min.css";
 
-const PrevArrow = ({ onClick }) => (
-  <div className="slick-arrow slick-prev" onClick={onClick}>
-    <i className="fa fa-chevron-left" aria-hidden="true" />
-  </div>
-);
-
-const NextArrow = ({ onClick }) => (
-  <div className="slick-arrow slick-next" onClick={onClick}>
-    <i className="fa fa-chevron-right" aria-hidden="true" />
-  </div>
-);
-
 const Carousel = () => {
   const settings = {
     dots: false,
@@ -39,8 +27,6 @@ const Carousel = () => {
         },
       },
     ],
-    prevArrow: <PrevArrow />,
-    nextArrow: <NextArrow />,
   };
 
   return (
