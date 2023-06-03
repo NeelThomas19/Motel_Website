@@ -2,8 +2,8 @@ import React from 'react'
 
 const Amenities = () => {
   return (
-    <div id='Amenities' className='amenities'>
-        Amenities
+    <div  className='amenities'>
+        <h4 id='Amenities'>Amenities</h4>
         </div>
   )
 }

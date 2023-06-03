@@ -2,8 +2,8 @@ import React from 'react'
 
 const Location = () => {
   return (
-    <div id='Location' className='location'>
-        Location
+    <div  className='location'>
+        <h4 id='Location'>Location</h4>
         </div>
   )
 }

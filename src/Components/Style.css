@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
                     /* HEADER */
 
 .header{
@@ -24,18 +33,34 @@
 
 .overview{
     border: 2px red solid;
-    padding: 0px;
-    margin: 0px;
-    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 360px;
+    text-align: left;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.d-block{
-    height: 20px;
+.text{
+    padding-left: 20px;
 }
 
-.w-100{
-    width: 20rem;
+
+
+                    /* CAROUSEL */
+
+
+.card{
+    width: 300px;
+    border: none;
+    outline: none;
 }
+.slick-slide img{
+    height: 500px;
+    padding: 10px;
+}
+
 
 
                     /* ROOMS */

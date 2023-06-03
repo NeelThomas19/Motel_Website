@@ -2,8 +2,8 @@ import React from 'react'
 
 const Policies = () => {
   return (
-    <div id='Policies' className='policies'>
-        Policies
+    <div  className='policies'>
+        <h4 id='Policies'>Policies</h4>
         </div>
   )
 }
