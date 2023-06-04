@@ -46,32 +46,25 @@ html,body{
 .overview{
     padding-left: 0px;
     padding-right: 0px;
-    margin-left: 360px;
+    margin-right: 20px;
+    margin-left: 200px;
     text-align: justify;
-    width: 60%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     background-color: #0000ff;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: #ffffff;
 }
 
-.text{
-    padding-left: 20px;
-    justify-content: space-between;
-}
-
-.expl{
+#explore{
     padding-left: 20px;
 }
 
-.text1{
-    display: flex;
-    justify-content: space-between;
+.card-title{
+    text-align: center;
 }
-
-.t1{
-    padding-right: 70px;
-}
-
 
                     /* CAROUSEL */
 
