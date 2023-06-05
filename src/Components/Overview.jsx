@@ -1,7 +1,9 @@
 import React from 'react'
-import { FaParking, FaSnowflake } from "react-icons/fa";
+import { FaParking, FaSnowflake} from "react-icons/fa";
 import { BiWifi } from "react-icons/bi";
 import { Ri24HoursLine } from "react-icons/ri";
+import { BsFillAirplaneFill } from "react-icons/bs";
+import { ImLocation } from "react-icons/im";
 
 const Overview = () => {
   return (
@@ -30,7 +32,7 @@ const Overview = () => {
         <div class="container text-center">
           <div class="row">
             <div class="col">
-            <p class="card-text">Wildwood Boardwalk</p>
+            <p class="card-text"><ImLocation/>Wildwood Boardwalk</p>
             </div>
             <div class="col">
             <p class="card-text">2 min walk</p>
@@ -38,7 +40,7 @@ const Overview = () => {
           </div>
           <div class="row">
             <div class="col">
-            <p class="card-text">Wildwood Beach</p>
+            <p class="card-text"><ImLocation/>Wildwood Beach</p>
             </div>
             <div class="col">
             <p class="card-text">5 min walk</p>
@@ -46,7 +48,7 @@ const Overview = () => {
           </div>
           <div class="row">
             <div class="col">
-            <p class="card-text">Morey's Piers</p>
+            <p class="card-text"><ImLocation/>Morey's Piers</p>
             </div>
             <div class="col">
             <p class="card-text">10 min walk</p>
@@ -54,7 +56,7 @@ const Overview = () => {
           </div>
           <div class="row">
             <div class="col">
-            <p class="card-text">Cape May, NJ(WWD-Cape May County)</p>
+            <p class="card-text"><BsFillAirplaneFill/>Cape May, NJ(WWD-Cape May County)</p>
             </div>
             <div class="col">
             <p class="card-text">15 min drive</p>
