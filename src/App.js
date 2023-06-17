@@ -18,17 +18,17 @@ import Carousel from './Components/Carousel';
 function App() {
   return (
     <div className="App">
+      <Router>
       <Header />
       <Navbar />
       <Carousel />
       <Overview />
-      <Router>
       <Rooms />
-      </Router>
       <Location />
       <Amenities/>
       <Policies />
       <Footer />
+      </Router>
     </div>
   );
 }

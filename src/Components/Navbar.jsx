@@ -1,10 +1,22 @@
-import React from 'react'
-import Footer from './Footer'
-import Overview from './Overview'
+import React, { useEffect, useState } from 'react';
 
 const Navbar = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.pageYOffset > 0) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   return (
-    <div className='navbar'>
+    <div className={`navbar ${isSticky ? 'sticky' : ''}`}>
       <nav id="navbar-example2" class="navbar bg-body-primary px-3 mb-3">
   <ul class="nav nav-pills">
     <li class="nav-item">
