@@ -185,7 +185,7 @@ li {
 
 /* POLICIES */
 
-.policies {
+
   .policies {
     /* background-color: rgb(183, 213, 152); */
     height: max-content;
@@ -235,13 +235,16 @@ li {
   .star-rating {
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
+
 
   .star {
     font-size: 24px;
     color: #888;
     cursor: pointer;
   }
+
 
   .star.filled {
     color: gold;
@@ -293,10 +296,14 @@ li {
     margin-bottom: 5px;
   }
 
+  .rating{
+    color: gold;
+  }
+
   .review-list .comment {
     color: #666;
   }
-}
+
 
 /* FOOTER */
 
